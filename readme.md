@@ -6,4 +6,8 @@ socket 编程
 dir （python模块名）查看该模块属性
 
 import this 彩蛋
+--------------------
 
+migong.py and migong2.py are two ways to solve the maze problem.
+----------------------------
+mult.cpp is karatsuba
