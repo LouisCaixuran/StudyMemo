@@ -37,7 +37,7 @@ deactivate () {
 # unset irrelevant variables
 deactivate nondestructive
 
-VIRTUAL_ENV="/Users/caihui/StudyMemo/demo"
+VIRTUAL_ENV="/Users/caihui/StudyMemo/paixu"
 export VIRTUAL_ENV
 
 _OLD_VIRTUAL_PATH="$PATH"
@@ -54,8 +54,8 @@ fi
 
 if [ -z "$VIRTUAL_ENV_DISABLE_PROMPT" ] ; then
     _OLD_VIRTUAL_PS1="$PS1"
-    if [ "x(demo) " != x ] ; then
-	PS1="(demo) $PS1"
+    if [ "x(paixu) " != x ] ; then
+	PS1="(paixu) $PS1"
     else
     if [ "`basename \"$VIRTUAL_ENV\"`" = "__" ] ; then
         # special case for Aspen magic directories
