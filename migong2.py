@@ -1,4 +1,5 @@
 import copy
+
 source=[ 
     [0,0,1,0,1],
     [1,0,1,0,1],
@@ -15,6 +16,8 @@ class Migong(object):
 		if x==4 and y==4:
 			print ("success")
 			self.success=1
+			import pdb
+			pdb.set_trace()
 			return True
 
 		if (x<=4 and x>=0 and y<=4 and y>=0)  and self.success==0:	
