@@ -11,17 +11,16 @@ y=np.array([[0.42697],
 			[0.50078],
 			[0.41750]])
 w=np.zeros((len(x.T),len(y.T)))
-optimizer=0.01/len(y)
 
 def gradient(x,y,w):
-	return (np.dot(x.T,np.dot(x,w)-y))
+	return (1.0/len(y))*(np.dot(x.T,np.dot(x,w)-y))
 
-def train(x,y,w,optimizer):
+def train(x,y,w,optimizer=0.5):
 	n=np.dot(x,w)-y
-	while not np.all(np.absolute(n)<=10**-5):
+	while not np.all(np.absolute(n)<=1e-5):
 		w=w-optimizer*gradient(x,y,w)
 		n=np.dot(x,w)-y
 	return w
 
-w=train(x,y,w,optimizer)
+w=train(x,y,w)
 print w
