@@ -12,11 +12,17 @@ migong.py and migong2.py are two ways to solve the maze problem.
 
 -------------------------------------------------------------------
 
-mult.cpp is karatsuba
+mult.cpp is use karatsuba to multiply two big numbers
+
+Big_num_multiply.cpp is followed the hand-calculated mutiply way
 
 
 -------------------------------------------------------------------
 paixu.py is a collection of some typical sort ways
+	merge sort
+	radix sort
+	quick sort
+	heap sort
 
 ------------------------------------------------------------------
-tiduxiajiang.py is used to solve linear equations
+tiduxiajiang.py uses gradient descent to solve linear equations group
