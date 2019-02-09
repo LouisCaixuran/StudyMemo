@@ -32,3 +32,6 @@ pi.py uses Monte Carlo to find the value of pi
 
 ---------------------------------------
 sqrt2.py uses two ways to do the square root and compares the time they used with the python inner function
+
+---------------------------------------
+kmp.py is a substring searching in a long string
