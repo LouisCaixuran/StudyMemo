@@ -1,17 +1,11 @@
 readme.md
 
-socket 编程
-多线程运行
-
-dir （python模块名）查看该模块属性
-
-import this 彩蛋
+socketdemo is a Lan communication program 
 
 ------------------------------------------------------------------
 migong.py and migong2.py are two ways to solve the maze problem.
 
 -------------------------------------------------------------------
-
 mult.cpp is use karatsuba to multiply two big numbers
 
 Big_num_multiply.cpp is followed the hand-calculated mutiply way
@@ -35,3 +29,9 @@ sqrt2.py uses two ways to do the square root and compares the time they used wit
 
 ---------------------------------------
 kmp.py is a substring searching in a long string
+
+--------------------------------------------------------
+dijkstra.py is to find the shortest  way in a oriented graph
+
+-----------------------------------------------------------
+tree.py implements binary trees in python
