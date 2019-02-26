@@ -35,3 +35,12 @@ dijkstra.py is to find the shortest  way in a oriented graph
 
 -----------------------------------------------------------
 tree.py implements binary trees in python
+
+--------------------------------------------------
+integrate.py
+to find the area of red section 
+![integrate_problem](/pic/integrate_problem.jpg)
+* The first way is using scipy.ingration function
+* The second way is directly finding the integration of the two function in the graph
+* The last way is using the monte carlo method 
+
