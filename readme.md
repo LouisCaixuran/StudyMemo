@@ -44,3 +44,7 @@ to find the area of red section
 * The second way is directly finding the integration of the two function in the graph
 * The last way is using the monte carlo method 
 
+--------------------------------------------------
+non-linear_equation_group.py
+use two ways to solve the non-linear equation group
+![non-linear_equ](/pic/non-linear_equ.jpg)
