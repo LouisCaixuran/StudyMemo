@@ -75,7 +75,7 @@ g={
 }
 
 
-graph = Graph("start","fin",g)
+graph = Graph("start","fin")
 
 '''
 graph.add(graph.start,'a',5)
@@ -93,7 +93,7 @@ graph.add("e","d",3)
 graph.add("f","g",7)
 graph.add("f",graph.fin,4)
 graph.add("g",graph.fin,8) 
-print graph.graph
 '''
+
 print graph.findroad()
 
